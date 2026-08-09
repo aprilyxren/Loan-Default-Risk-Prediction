@@ -79,7 +79,7 @@ def misclassification_breakdown(df, y_true, y_pred, group_cols):
 
 
 if __name__ == "__main__":
-    df = load_and_prep("loan_data.csv")  # swap for real loan_data.csv
+    df = load_and_prep("loan_data.csv")
 
     numeric_features = ['int_rate', 'installment', 'log_annual_inc', 'dti', 'fico',
                          'days_with_cr_line', 'revol_bal', 'revol_util',
